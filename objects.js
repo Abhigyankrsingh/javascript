@@ -29,5 +29,16 @@ Object.freeze(JsUser) //It will not let change.
 
 JsUser.email = " abhi @yahoo.com"
 
-console.log(JsUser);
+// console.log(JsUser);
+
+JsUser.greeting = function(){
+    console.log("Hello");
+}
+
+
+console.log(JsUser.greeting);
+
+
+
+
 
