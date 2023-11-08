@@ -24,7 +24,7 @@ console.log(JsUser["full name"]);
 
 console.log(JsUser[mySym])
 
-Object.freeze(JsUser)
+Object.freeze(JsUser) //It will not let change.
 
 
 JsUser.email = " abhi @yahoo.com"
