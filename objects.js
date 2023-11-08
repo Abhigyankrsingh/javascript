@@ -24,3 +24,10 @@ console.log(JsUser["full name"]);
 
 console.log(JsUser[mySym])
 
+Object.freeze(JsUser)
+
+
+JsUser.email = " abhi @yahoo.com"
+
+console.log(JsUser);
+
