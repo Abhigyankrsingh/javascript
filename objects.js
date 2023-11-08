@@ -24,7 +24,7 @@ console.log(JsUser["full name"]);
 
 console.log(JsUser[mySym])
 
-Object.freeze(JsUser) //It will not let change.
+// Object.freeze(JsUser) //It will not let change.
 
 
 JsUser.email = " abhi @yahoo.com"
@@ -35,8 +35,12 @@ JsUser.greeting = function(){
     console.log("Hello");
 }
 
+JsUser.greeting2 = function(){
+    console.log(`Hello JS User`, $(this.name))
+}
 
-console.log(JsUser.greeting);
+
+console.log(JsUser.greeting());
 
 
 
