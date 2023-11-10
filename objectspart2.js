@@ -42,3 +42,30 @@ const obj4 = {5: "a", 6: "b"}
 const obj3 = {...obj1,...obj2}
 
  console.log(obj3);
+
+
+ /// Generally it comes from database like this
+
+ const users = [
+    {
+        id: 1,
+        email: "h@gmail.com"
+    },
+
+    {
+        id:2,
+        email: "we@gmail.co,"
+    },
+
+ ]
+
+
+ users[1].email
+
+
+ console.log(tinderUser);
+
+ 
+
+
+
