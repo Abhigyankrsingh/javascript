@@ -65,7 +65,9 @@ const obj3 = {...obj1,...obj2}
 
  console.log(tinderUser);
 
- 
+ console.log(Object.keys(tinderUser));
+
+
 
 
 
