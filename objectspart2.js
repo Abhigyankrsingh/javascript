@@ -22,3 +22,4 @@ const regularUser = {
     }
 }
 
+console.log(regularUser.fullname.userfullname.firstname);
