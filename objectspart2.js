@@ -1,4 +1,4 @@
-//const tinderUser = new Object() //Songleton pbject
+//const tinderUser = new Object() //Singleton pbject
 
 const tinderUser = {} //Non-Singlelton Object
 
