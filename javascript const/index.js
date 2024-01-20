@@ -12,4 +12,6 @@ document.getElementById("mySubmit").onclick = function(){
     radius = Number(radius);
 
     circum = 2 *PI * radius;
+
+    document.getElementById("myH3").textContent = circum;
 }
