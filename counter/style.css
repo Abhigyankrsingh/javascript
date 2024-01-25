@@ -20,5 +20,14 @@ font-family: Helvetica;
     color: white;
 
     background-color: hsl(214, 100%, 74%);
+    border-radius: 5px;
 
+    cursor: pointer;
+
+    transition: background-color 0.25s;
+
+}
+
+.buttons:hover {
+    background-color: hsl(214, 100%, 56%);
 }
