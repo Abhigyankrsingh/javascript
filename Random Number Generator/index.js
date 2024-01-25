@@ -2,7 +2,11 @@
 
 const myButton = document.getElementById("myButton");
 
-const myLable = document.getElementById("myLabel");
+const lable1 = document.getElementById("Label");
+
+const lable2 = document.getElementById("Label");
+
+const lable3 = document.getElementById("Label");
 
 
 
