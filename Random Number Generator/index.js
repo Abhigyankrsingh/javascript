@@ -2,11 +2,11 @@
 
 const myButton = document.getElementById("myButton");
 
-const lable1 = document.getElementById("label");
+const lable1 = document.getElementById("label1");
 
-const lable2 = document.getElementById("label");
+const lable2 = document.getElementById("label2");
 
-const lable3 = document.getElementById("label");
+const lable3 = document.getElementById("label3");
 
 
 
@@ -26,9 +26,9 @@ myButton.onclick = function(){
     randomNum2 = Math.floor(Math.random() *max) + min;
     randomNum3 = Math.floor(Math.random() *max) + min;
 
-    lable1.textContent = randomNum;
-    lable2.textContent = randomNum;
-    lable3.textContent = randomNum;
+    lable1.textContent = randomNum1;
+    lable2.textContent = randomNum2;
+    lable3.textContent = randomNum3;
 
 
 
