@@ -17,5 +17,14 @@ increaseBtn.onclick = function(){
 
     countLabel.textContent = count;
  
+
+}
+
+decreaseBtn.onclick = function(){
+
+    count--;
+
+    countLabel.textContent = count;
+
     
 }
