@@ -22,9 +22,11 @@ increaseBtn.onclick = function(){
 
 decreaseBtn.onclick = function(){
 
+ if (count > 0){
     count--;
 
     countLabel.textContent = count;
+ }
 
 
 }
