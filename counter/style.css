@@ -12,3 +12,13 @@ font-family: Helvetica;
 #btnContainer{
     text-align: center;
 }
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+
+    color: white;
+
+    background-color: hsl(214, 100%, 74%);
+
+}
