@@ -16,3 +16,7 @@ body{
 
     border-radius: 5px;
 }
+
+#myLabel{
+    font-size: 3em;
+}
