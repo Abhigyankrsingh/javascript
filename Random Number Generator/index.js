@@ -26,7 +26,9 @@ myButton.onclick = function(){
     randomNum2 = Math.floor(Math.random() *max) + min;
     randomNum3 = Math.floor(Math.random() *max) + min;
 
-    myLable.textContent = randomNum;
+    lable1.textContent = randomNum;
+    lable2.textContent = randomNum;
+    lable3.textContent = randomNum;
 
 
 
