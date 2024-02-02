@@ -46,5 +46,10 @@ button {
     border: none;
     padding: 10px 15px;
     border-radius: 7px;
-    
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: hsl(0, 90%, 47%);
 }
