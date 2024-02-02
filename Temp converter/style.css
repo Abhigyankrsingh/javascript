@@ -32,3 +32,19 @@ form{
     border-radius: 4px;
     margin-bottom: 15px;
 }
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 15px;
+    background-color: hsl(0, 90%, 57%);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    
+}
