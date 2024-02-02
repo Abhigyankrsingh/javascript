@@ -53,3 +53,7 @@ button {
 button:hover {
     background-color: hsl(0, 90%, 47%);
 }
+
+#result {
+    font-size: 1.75em;
+}
