@@ -4,3 +4,16 @@ body {
 
     background-color: hsl(0, 3%, 94%)
 }
+
+
+h1{
+   color: hsl(186, 69%, 49%);
+}
+
+
+form{
+    background-color: white;
+    text-align: center;
+
+    max-width: 450px;
+}
