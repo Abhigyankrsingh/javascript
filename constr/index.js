@@ -1,4 +1,4 @@
-function Car(make, model, year, color){
+function Car(make, model, year, color,drive){
 
     this.make = make,
 
@@ -7,6 +7,8 @@ function Car(make, model, year, color){
     this.year = year,
 
     this.color = color
+
+    this.drive = function(){ console.log(`This car is built in ${this.year} `)}
 
 }
 
